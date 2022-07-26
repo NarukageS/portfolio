@@ -1,0 +1,28 @@
+
+// ハンバーガーメニュー
+.js_navigation.is_active {
+  opacity: 1;
+  pointer-events: inherit;
+}
+
+.js_hamburger.is_active .m_hamburger-bar:first-child {
+  top: 50%;
+  transform: translate(-50%, 0) rotate(-135deg);
+}
+
+.js_hamburger.is_active .m_hamburger-bar:nth-child(2) {
+  opacity: 0;
+}
+
+.js_hamburger.is_active .m_hamburger-bar:last-child {
+  top: 50%;
+  transform: translate(-50%, 0) rotate(135deg);
+}
+
+.js_body.is_active {
+  overflow: hidden;
+}
+
+.js_page_top.in {
+  right: 20px;
+}
