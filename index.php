@@ -4,7 +4,7 @@
 <main class="l_main">
   <div class="l_container">
     <div class="top_kv" id="bird">
-      <p class="top_kv_copy "><span class="js_kv_copy__1">Welcome</span> <span class="js_kv_copy__2">To</span> <span class="js_kv_copy__3">My Portforio</span></p>
+      <p class="top_kv_copy "><span class="js_kv_copy__1">Welcome</span> <span class="js_kv_copy__2">To</span> <span class="js_kv_copy__3">My Portfolio</span></p>
       <p class="top_kv_scroll">scroll <span class="top_kv_scroll-allow">⇀</span></p>
     </div>
 
@@ -288,7 +288,7 @@
         <div class="top_works_contents">
           <div class="top_works_content js_works_content">
             <div class="top_works_img-wrapper">
-              <img src="<?php echo esc_url( get_template_directory_uri() . '/img/portfolio01.jpg' ); ?>" alt="" class="top_works_img">
+              <img src="<?php echo esc_url( get_template_directory_uri() . '/img/work01.jpg' ); ?>" alt="" class="top_works_img">
             </div>
             <div class="top_works_text">
               <h3 class="top_works_title">初めてのポートフォリオ</h3>
@@ -310,33 +310,35 @@
                 </tr>
                 <tr class="top_works_table-tr">
                   <th class="top_works_table-th">技術</th>
-                  <td class="top_works_table-td">Sass, JS, jQuery, WordPress</td>
+                  <td class="top_works_table-td">HTML, Sass, JS, jQuery, WordPress</td>
                 </tr>
               </table>
             </div>
           </div>
           <div class="top_works_content js_works_content">
             <div class="top_works_img-wrapper">
-              <img src="" alt="" class="top_works_img">
+              <img src="<?php echo esc_url( get_template_directory_uri() . '/img/work02.jpg' ); ?>" alt="" class="top_works_img">
             </div>
             <div class="top_works_text">
-              <h3 class="top_works_title">タイトル</h3>
+              <h3 class="top_works_title">鳳来弁当 様</h3>
               <table class="top_works_table">
                 <tr class="top_works_table-tr">
                   <th class="top_works_table-th">制作概要</th>
-                  <td class="top_works_table-td"></td>
+                  <td class="top_works_table-td">1ページ<br>
+                    レスポンシブ対応
+                  </td>
                 </tr>
                 <tr class="top_works_table-tr">
                   <th class="top_works_table-th">制作期間</th>
-                  <td class="top_works_table-td"></td>
+                  <td class="top_works_table-td">1か月</td>
                 </tr>
                 <tr class="top_works_table-tr">
                   <th class="top_works_table-th">工夫点</th>
-                  <td class="top_works_table-td"></td>
+                  <td class="top_works_table-td">素のJSですべてのアニメーションを作りました。</td>
                 </tr>
                 <tr class="top_works_table-tr">
                   <th class="top_works_table-th">技術</th>
-                  <td class="top_works_table-td"></td>
+                  <td class="top_works_table-td">HTML, Sass, JS</td>
                 </tr>
               </table>
             </div>
